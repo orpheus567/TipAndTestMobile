@@ -14,6 +14,7 @@ package
 		private var $loader:Loader;
 		public function LoadImgLocalFile()
 		{
+			
 			super();
 			trace("stage.stageWidth: ",stage.stageWidth);
 			trace("stage.stageHeight: ",stage.stageHeight);
