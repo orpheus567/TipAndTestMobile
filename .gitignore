@@ -1,0 +1,14 @@
+/bin-debug
+/bin-release-temp
+
+.actionScriptProperties
+
+.project
+
+*.prefs
+
+assets/.DS_Store
+
+.DS_Store
+
+LoadImgLocalFile.apk
