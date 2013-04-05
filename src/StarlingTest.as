@@ -62,7 +62,7 @@ package
 			// create the AssetManager, which handles all required assets for this resolution
 			
 //			var scaleFactor:int = viewPort.width < 480 ? 1 : 2; // midway between 320 and 640
-			var scaleFactor:int = 3; // midway between 320 and 640
+			var scaleFactor:int = 1; // midway between 320 and 640
 			var appDir:File = File.applicationDirectory;
 			var assets:AssetManager = new AssetManager(scaleFactor);
 			

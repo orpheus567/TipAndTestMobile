@@ -289,8 +289,11 @@ package starling.utils
                         else
                         {
                             var extension:String = rawAsset["extension"].toLowerCase();
-                            if (SUPPORTED_EXTENSIONS.indexOf(extension) != -1)
+                            if (SUPPORTED_EXTENSIONS.indexOf(extension) != -1){
+								
+								trace("rawAsset[url]: ",rawAsset["url"]);
                                 push(rawAsset["url"]);
+							}
                             else
                                 log("Ignoring unsupported file '" + rawAsset["name"] + "'");
                         }
